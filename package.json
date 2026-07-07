@@ -1,0 +1,16 @@
+{
+  "name": "sentramap",
+  "version": "1.0.0",
+  "description": "AI-narrated attack surface intelligence tool",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "stripe": "^22.3.0"
+  }
+}
